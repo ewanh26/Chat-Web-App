@@ -1,0 +1,37 @@
+div.right {
+    position: fixed;
+    width: 378px;
+    height: 534.6px;
+    right: 25.2%;
+    top: 5%;
+    border: 1pt solid black;
+}
+div.left {
+    position: fixed;
+    width: 378px;
+    height: 534.6px;
+    left: 25.2%;
+    top: 5%;
+    border: 1pt solid black;
+}
+button.prev, button.next {
+    font-family: 'Segoe UI';
+    border-radius: 8px;
+    position: fixed;
+    transition-duration: 0.4s;
+    border-color: white;
+    border-style: none;
+}
+button.prev {
+    left: 20%;
+    bottom: 15%;
+}
+button.next {
+    right: 20%;
+    bottom: 15%;
+}
+.prev:hover, .next:hover, .prev:focus, .next:focus {
+    background-color: #4040ff;
+    color: white;
+    outline: none;
+}
