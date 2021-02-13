@@ -25,11 +25,11 @@ html, body {
     #FF0055
     );
     background-size: 2000% 2000%;
-    animation: change 15s ease infinite;
+    animation: backgroundChange 15s ease infinite;
     transform: none;
 }
 .slide2 {
-    background: whitesmoke;
+    background: black;
 }
 #starimg {
     display: block;
@@ -37,6 +37,27 @@ html, body {
     margin-left: auto;
     margin-right: auto;
 
+}
+#moonimg {
+    display: block;
+    width: 30px;
+    height: 30px;
+    top: 17px;
+    right: 33%;
+    left: 66%;
+    position: absolute;
+    filter: brightness(5);
+    filter: contrast(0);
+    filter: blur(0.7px);
+    filter: opacity(0.95);
+    animation: moonScroll 0.5s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    transform: rotate(-40deg);
+    transform-origin: 0px 500px;
+}
+#moonimg::before {
+    transform: rotate(-30deg);
 }
 button.prev, button.next {
     border-radius: 8px;
@@ -59,7 +80,7 @@ button.next {
     color: white;
     outline: none;
 }
-@keyframes change {
+@keyframes backgroundChange {
     0% {
         background-position: 0 50%;
     }
@@ -68,5 +89,13 @@ button.next {
     }
     100% {
         background-position: 0 50%;
+    }
+}
+@keyframes moonScroll {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-90deg);
     }
 }
