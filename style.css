@@ -25,8 +25,18 @@ html, body {
     #FF0055
     );
     background-size: 2000% 2000%;
-    animation: change 30s ease infinite;
+    animation: change 15s ease infinite;
     transform: none;
+}
+.slide2 {
+    background: whitesmoke;
+}
+#starimg {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 button.prev, button.next {
     border-radius: 8px;
@@ -37,12 +47,12 @@ button.prev, button.next {
     padding: 4pt;
 }
 button.prev {
-    left: 20%;
-    bottom: 15%;
+    left: 5%;
+    bottom: 5%;
 }
 button.next {
-    right: 20%;
-    bottom: 15%;
+    right: 5%;
+    bottom: 5%;
 }
 .prev:hover, .next:hover, .prev:focus, .next:focus {
     background-color: #ff245b;
