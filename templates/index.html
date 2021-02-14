@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <!--<link rel="preload" as="image" href="{{ url_for('static', filename='starry.jpg') }}">
+        <link rel="preload" as="image" href="{{ url_for('static', filename='moon.png') }}">!-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title>The Future</title>
+    </head>
+    <body>
+        <div id="maindiv"></div>
+        <button class="prev" id="prev">&larr; Previous</button>
+        <button class="next" id="next">Next &rarr;</button>
+        <script src="{{ url_for('static', filename='index.js') }}"></script>
+    </body>
+</html>
