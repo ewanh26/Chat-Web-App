@@ -14,8 +14,8 @@ function update() {
         case 1:
             $div.className = 'slide2';
             $($div).html(`
-            <img src="{{ url_for('static', filename='starry.jpg') }}" alt="stars" id="starimg">
-            <img src="{{ url_for('static', filename='moon.png') }}" alt="moon" id="moonimg">
+            <img src="/static/starry.jpg" alt="stars" id="starimg">
+            <img src="/static/moon.png" alt="moon" id="moonimg">
             `);
             break;
     }
