@@ -16,6 +16,18 @@ function update() {
             $($div).html(`
             <img src="/static/starry.jpg" alt="stars" id="starimg">
             <img src="/static/moon.png" alt="moon" id="moonimg">
+            <div class="textbody">
+                <h1>Space Travel?</h1>
+                <p>
+                    chowcjdhbwdcbwicvwbdcvichdc
+                    dchivdwciwdcvwdihcvwdhcwdvcwd
+                    dchjwdbciodcgbwdocjwdbcjowdbojc
+                    cbihwdcbwichvwdcobwdjhcbjodw
+                    bjcjdcbowdcbojdcjobwdcbwdcj
+                    njowdcojbwdcojbwdbvojcwdjbucwdojb
+                    wobcwodcowbjcwdcowdcoubwddidw
+                </p>
+            </div>
             `);
             break;
     }
@@ -40,4 +52,4 @@ $nextButton.addEventListener('click', function () {
 
 window.addEventListener('scroll', function () {
     document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
-});
+}, false);

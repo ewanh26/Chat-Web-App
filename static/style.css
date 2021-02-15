@@ -1,11 +1,14 @@
 html, body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
 }
+#maindiv {
+    position: relative;
+}
 .slide1Header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,13 +33,28 @@ html, body {
 }
 .slide2 {
     background: black;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    color: white;
+}
+.textbody {
+    color: white;
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    right: 25%;
+    top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    animation: headerAppear 1s ease-in-out infinite;
+    animation-iteration-count: 1;
 }
 #starimg {
-    display: block;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-
 }
 #moonimg {
     display: block;
@@ -50,14 +68,7 @@ html, body {
     filter: contrast(0);
     filter: blur(0.7px);
     filter: opacity(0.95);
-    animation: moonScroll 0.5s linear infinite;
-    animation-play-state: paused;
-    animation-delay: calc(var(--scroll) * -1s);
-    transform: rotate(-40deg);
-    transform-origin: 0px 500px;
-}
-#moonimg::before {
-    transform: rotate(-30deg);
+    animation: moon 1s linear infinite 1;
 }
 button.prev, button.next {
     border-radius: 8px;
@@ -91,11 +102,18 @@ button.next {
         background-position: 0 50%;
     }
 }
-@keyframes moonScroll {
+@keyframes moon {
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes headerAppear {
     from {
-        transform: rotate(0deg);
+        filter: opacity(0);
+        top: 50px;
     }
     to {
-        transform: rotate(-90deg);
+        filter: opacity(1);
+        top: 20px;
     }
 }
