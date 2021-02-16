@@ -9,7 +9,10 @@ function update() {
     switch (pageCounter) {
         default:
             $div.className = 'slide1Header';
-            $($div).html("<h1>THE WORLD OF TOMORROW. WHAT'S NEXT FOR US?</h1>");
+            $($div).html(`<h1 class="glitch">
+            <span aria-hidden="true">THE WORLD OF TOMORROW. WHAT\'S NEXT FOR US?</span>
+            THE WORLD OF TOMORROW. WHAT\'S NEXT FOR US?
+            <span aria-hidden="true">THE WORLD OF TOMORROW. WHAT\'S NEXT FOR US?</span></h1>`);
             break;
         case 1:
             $div.className = 'slide2';
@@ -17,15 +20,9 @@ function update() {
             <img src="/static/starry.jpg" alt="stars" id="starimg">
             <img src="/static/moon.png" alt="moon" id="moonimg">
             <div class="textbody">
-                <h1>Space Travel?</h1>
-                <p>
-                    chowcjdhbwdcbwicvwbdcvichdc
-                    dchivdwciwdcvwdihcvwdhcwdvcwd
-                    dchjwdbciodcgbwdocjwdbcjowdbojc
-                    cbihwdcbwichvwdcobwdjhcbjodw
-                    bjcjdcbowdcbojdcjobwdcbwdcj
-                    njowdcojbwdcojbwdbvojcwdjbucwdojb
-                    wobcwodcowbjcwdcowdcoubwddidw
+                <h1 class="shadow">Space Travel?</h1>
+                <p class="b">
+                    //text here
                 </p>
             </div>
             `);
