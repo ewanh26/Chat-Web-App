@@ -25,7 +25,7 @@ function update() {
                     <h4>THUD.</h4> My shining, heavy, Kevlar boot thumped the ground of Mars. In fact, it was the first boot to<br>
                     ever touch Mars. It was kind of overwhelming knowing that you’re making history; the real Neil<br>
                     Armstrong 2.0, they’ll call me. The heat of the sun felt like it was piercing my suit. The mind-numbing<br>
-                    calefaction felt like it was piercing my suit. I wasn’t sure if my drenching sweat was from my<br>
+                    calefaction oppressed my limbs. I wasn’t sure if my drenching sweat was from my<br>
                     excitement or being baked alive. I took some more steps forward into the vivid yet bleak orange<br>
                     haze in front of me. It felt strange that I was breathing after being told there was no oxygen here my<br>
                     whole life.<br>
