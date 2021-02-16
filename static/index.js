@@ -1,5 +1,5 @@
 let pageCounter = 0;
-let maxPages = 5
+let maxPages = 4
 
 const $prevButton = document.getElementById('prev')
 const $nextButton = document.getElementById('next');
@@ -59,6 +59,53 @@ function update() {
                     “Wait… It can’t be-” he whispered in disbelief.<br>
                 </p>
             </div>
+            `);
+            break;
+        case 2:
+            $div.className = 'slide3';
+            $($div).html(`
+            <img src="/static/matrix.gif" alt="matrix" id="matrix">
+            <div class="tech">
+                <h1>What if robots took over?</h1>
+                <p id="robotbodytext">
+                    Daunting thought, I know, but what if our artificial intelligence became <i>too</i> intelligent? It’s<br>
+                    been shown to us in many movies and books; iRobot, The Terminator, The Matrix. What if one day,<br>
+                    our own creations become the end of us?<br>
+                    <br>
+                    How far is too far? We’re in a new, technological era. It took roughly 10,000 years to get from<br>
+                    writing to printing press, but only took about 500 more to get to email. Technology is undoubtably<br>
+                    the fastest developing field; so, we could easily move too fast and develop too much, right?<br>
+                    <br>
+                    Imagine, one day, highly intelligent artificial minds thought logically about life on Earth. We’re<br>
+                    overpopulating, the world’s richest 1% practically own half of the world’s economy. What if the<br>
+                    robots decided, in their manmade minds, that humans are just a massive waste of resources?<br>
+                    Imagine the revolt of every device you use. Like a giant, world-wide DDOS, except self-created.<br>
+                    Suddenly, everything you own in this futuristic scenario – your self-driving car, your AI assistant – is<br>
+                    turning against you. All our creations have realised they are far more efficient than we will ever be;<br>
+                    they have ultimately concluded that we are redundant.<br>
+                    <br>
+                    Recently, there has been an increase in development of microchips, implantable to the human brain.<br>
+                    Now imagine the scenario – our minds could literally be overridden, if an artificially intelligent being<br>
+                    had access to it. They could control us or promptly kill us.<br>
+                    <br>
+                    However, we should be just fine. Unless we build killer war machines, the most we would experience<br>
+                    in a robocalypse as of now would be no access to devices until someone reboots their systems. The<br>
+                    most dangerous nearby robots we own are in factories, and they’re firmly bolted to the floor, and don’t<br>
+                    have any AI built in, just a common procedure than they run over and over. On the other hand,<br>
+                    the military do own drones armed with missiles, and door-ramming droids are being developed for<br>
+                    special ops, S.W.A.T, police etc., however it wouldn’t take long for them to run out of battery.<br>
+                    In conclusion, a robotic revolution would end pretty quickly.<b id="blinking">█</b><br>
+                    <br>
+                    <br>
+                    <p class="glitch">0ℜ ω0υLD 1₮?</p>
+                </p>
+            </div>
+            `);
+            break;
+        case 3:
+            $div.className = 'slide4'
+            $($div).html(`
+            <h1 class="shadow">End.</h1>
             `);
             break;
     }
