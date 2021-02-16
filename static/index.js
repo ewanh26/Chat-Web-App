@@ -23,7 +23,7 @@ function update() {
                 <h1 class="shadow">Space Travel?</h1>
                 <p class="b">
                     <h4>THUD.</h4> My shining, heavy, Kevlar boot thumped the ground of Mars. In fact, it was the first boot to<br>
-                    ever touch Mars. It was kind of overwhelming knowing that you’re making history; the real Neil<br>
+                    ever touch Mars. It's kind of overwhelming knowing that you’re making history; the real Neil<br>
                     Armstrong 2.0, they’ll call me. The heat of the sun felt like it was piercing my suit. The mind-numbing<br>
                     calefaction oppressed my limbs. I wasn’t sure if my drenching sweat was from my<br>
                     excitement or being baked alive. I took some more steps forward into the vivid yet bleak orange<br>
@@ -41,9 +41,9 @@ function update() {
                     <br>
                     The lake was frozen and gorgeous. It was a dark, sapphire, bottomless marine, filled with miniscule<br>
                     white specks. It was translucent and glistened differently at every angle. It was as if an infinite ocean<br>
-                    mist had been submerged in there for centuries. The cold and bleak underground of Mars was like a<br>
+                    mist had been submerged in there for centuries. The icy underground of Mars was like a<br>
                     whole different dimension when compared to the exterior. Everything had a violet tint, and it was<br>
-                    layered with and crystals. The walls became decreasingly orange as we went further down. We took<br>
+                    layered with crystals. The walls became decreasingly orange as we went further down. We took<br>
                     samples from the glacial lake and everything around it and grappled our way back up to the sandy<br>
                     surface.<br>
                     <br>
