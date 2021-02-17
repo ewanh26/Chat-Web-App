@@ -37,7 +37,7 @@ html, body {
     background: linear-gradient(whitesmoke, grey, black);
     justify-content: center;
     text-align: center;
-    overflow: hidden;
+    overflow: scroll;
     position: relative;
     color: white;
 }
@@ -95,7 +95,7 @@ html, body {
     word-wrap: break-word;
 }
 p.b {
-    font-size: 1pt;
+    font-size: 9pt;
 }
 .glitch {
     text-shadow:
