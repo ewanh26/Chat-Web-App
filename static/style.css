@@ -37,7 +37,7 @@ html, body {
     background: linear-gradient(whitesmoke, grey, black);
     justify-content: center;
     text-align: center;
-    overflow: scroll;
+    overflow: hidden;
     position: relative;
     color: white;
 }
