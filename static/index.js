@@ -12,7 +12,8 @@ function update() {
             $($div).html(`<h1 class="glitch">
             <span aria-hidden="true">THE WORLD OF TOMORROW. WHAT\'S NEXT FOR US?</span>
             THE WORLD OF TOMORROW. WHAT\'S NEXT FOR US?
-            <span aria-hidden="true">THE WORLD OF TOMORROW. WHAT\'S NEXT FOR US?</span></h1>`);
+            <span aria-hidden="true">THE WORLD OF TOMORROW. WHAT\'S NEXT FOR US?</span></h1>
+            <p class="glitch">90% zoom recommended</p>`);
             break;
         case 1:
             $div.className = 'slide2';
