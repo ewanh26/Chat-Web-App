@@ -13,7 +13,6 @@ function update() {
             <span aria-hidden="true">THE WORLD OF TOMORROW. WHAT\'S NEXT FOR US?</span>
             THE WORLD OF TOMORROW. WHAT\'S NEXT FOR US?
             <span aria-hidden="true">THE WORLD OF TOMORROW. WHAT\'S NEXT FOR US?</span></h1>
-            <div style="position: absolute, top: 5px"><p class="glitch">90% zoom recommended</p></div>
             `);
             break;
         case 1:
