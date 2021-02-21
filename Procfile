@@ -1,2 +1,2 @@
 web: gunicorn main:app
-domains:add www.ewanhallatt-thefuture.com
+heroku domains:add www.ewanhallatt-thefuture.com
